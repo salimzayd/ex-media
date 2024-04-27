@@ -51,7 +51,6 @@ useEffect(() =>{
     <div className='hm_imgs' >
         <img src={ai} alt='ai' data-aos="fade-right" />
         <img src={studio} alt='studio' data-aos="fade-up"/>
-        <img  src={newone} alt='cam' data-aos="fade-left"/>
     </div>
 
 

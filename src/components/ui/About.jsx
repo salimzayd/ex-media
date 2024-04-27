@@ -29,16 +29,19 @@ At EXMEDIA, we don't just create campaigns; we create experiences. With a focus 
             <button className='btn-1'> READ MORE </button>
        </div>
 
-       <div className='img1' data-aos = "fade-up" >
-  
-       </div>
-
-       <div className='img2' data-aos = "fade-down">
+       <div className='img2' data-aos = "fade-left">
         
        </div>
 
-       <div className='img3' data-aos = "fade-left">
+       <div className='img3' data-aos = "fade-up-left">
        
+       </div>
+       <div className='img-3' data-aos = "fade-right">
+        
+       </div>
+
+       <div className='img-4' data-aos = "fade-up-right" >
+
        </div>
 
 
