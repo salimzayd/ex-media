@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(112, 110, 107);
+    font-family: sans-serif;
+}
+
+.title h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 42px;
+}
+
+.title h1::after{
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: rgb(170, 172, 64);
+    display: block;
+    margin:auto ;
+}
+
+.services{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 35px;
+    text-align: center;
+}
+.service_img{
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    border-color: aliceblue;
+}
+
+.list{
+    font-size: 1.2rem;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: azure;
+    border-radius: 10px;
+    cursor: pointer ;
+
+}
+
+.card:hover{
+    background-color: rgb(20, 23, 23);
+    transition: 0.2s ease;
+    color: white;
+}
+
+.card .icon{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.card h2{
+    font-size: 28px;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+.card p{
+font-size: 17px;
+margin-bottom: 30px;
+line-height: 1.5;
+color: rgb(231, 73, 10);
+}
+
+.button{
+   font-size: 15px;
+   text-decoration: none;
+   color: rgb(17, 18, 17);
+   background-color: blue;
+   padding: 8px 12px;
+   border-radius: 5px;
+   letter-spacing: 1px; 
+   margin-top: 10px;
+}
+
+.button:hover{
+    background-color: burlywood;
+    transition: 0.4s ease;
+    color: white;
+}
+
+.list{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2rem;
+}
+
+@media screen and (max-width:949px){
+
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        width: 85%;
+        display: flex;
+        margin: 20px 0px;
+    }
+}

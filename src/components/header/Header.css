@@ -1,0 +1,163 @@
+.header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .nav_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+
+  .menu{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    list-style: none;
+  }
+
+  /* .menu_link{
+    font-weight: 400;
+    font-size: .9rem;
+    cursor: pointer;
+  } */
+
+  .menu_link:hover{
+    color: var(--link-active );
+  }
+
+  ul li a{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 1.2em;
+    color: #979292;
+    position: relative;
+  }
+
+  ul li a::before{
+    content: '';
+    width: 35px;
+    height: 3px;
+    background: #00bcd4;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    transition: .5s;
+    mix-blend-mode: multiply;
+  }
+
+  ul li a::after{
+    content: '';
+    width: 35px;
+    height: 3px;
+    background: #f0f;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    transition: .5s;
+    mix-blend-mode: multiply;
+  }
+
+  ul li:hover a::before{
+    width: 50%;
+    transform:translateX(100%);
+  }
+
+  ul li:hover a::after{
+    width: 50%;
+    transform: translateX(-100%);
+  }
+
+
+  
+
+  
+
+  @keyframes animate
+  {
+    0%,10%,100%
+    {
+      width: 0;
+    }
+    70%,90%
+    {
+      width: 100%;
+    }
+  }
+
+  
+
+  .header_shrink{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #020305;
+
+  }
+
+  .mobile_menu{
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: none;
+  }
+
+
+  /* responsive */
+
+  @media only screen and (max-width :992px){
+
+   
+    .navigation{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(6, 11, 26 , 0.868);
+      z-index: 99999;
+      display: none;
+    }
+
+    .menu{
+      flex-direction: column;
+      background:#0c123d;
+      width: 250px;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 999999;
+    }
+
+    .menu_active{
+      display: block;
+    }
+
+    .mobile_menu{
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width :768px){
+    .header{
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+    }
+
+    .mobile_menu{
+      font-size: 1rem;
+    }
+
+    .logo h2{
+      font-size: 1.3rem;
+    }
+  }

@@ -1,0 +1,93 @@
+.container {
+    /* position: relative; */
+    width: 2200px;
+    height: 600px;
+    background-color: white;
+  }
+  
+  .blur-background {
+    
+    background-image: url('C:\Users\hp\OneDrive\Desktop\exmedia work\exmedia\src\components\images\ai.jpg');
+    background-color:whitesmoke;
+    filter: blur(2px); 
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; 
+  }
+
+  
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    color: whitesmoke;
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+
+  .scndpd{
+    color: aliceblue;
+    margin-top: 60px;
+    font-size: 1.5rem;
+    
+  }
+  .scndpd h1{
+    text-decoration: underline;
+    color: red;
+  }
+
+  .scndcd{
+    color: aqua;
+    font-size: 1rem;
+  }
+
+  .scndcd2{
+    color: aquamarine;
+    font-size: 1rem;
+}
+
+.hm_imgs{
+    display: flex;
+    width: 170px;
+    height: 240px;
+    margin-top: 20px;
+    margin-left: 0px;
+    
+
+
+}
+
+.wtsp{
+  width: 160px;
+  height: 50px;
+  border-radius:25px;
+  border-color: black solid;
+  background-color:white;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  margin-left: -180px;
+  position: sticky;
+}
+
+.wtsp h4{
+  margin-top: 15px;
+}
+
+.iconwt{
+  width: 50px;
+  height: 50px;
+  border-radius: 150%;
+  color: rgb(42, 237, 35);
+}
+
+
+
+
+  
+  
+  

@@ -1,0 +1,68 @@
+.contents {
+    height: 400px;
+    width: 500px;
+    padding: 0;
+    margin: 150px;
+    margin-bottom: 30px;
+    /* background-color:whitesmoke; */
+    float: right;
+    
+}
+.img1{
+    /* background-color: aqua; */
+    width: 250px;
+    height: 300px;
+    margin: 120px;
+    position: absolute;
+    margin-top: 320px;
+    background-image: url('C:\Users\hp\OneDrive\Desktop\exmedia work\exmedia\src\components\images\newone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+.img2{
+    /* background-color: aquamarine; */
+    width: 250px;
+    height: 145px;
+    margin: 375px;
+    position: absolute;
+    margin-top: 320px;
+    background-image: url('C:\Users\hp\OneDrive\Desktop\exmedia work\exmedia\src\components\images\ai.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.img3{
+    /* background-color: black; */
+    width: 250px;
+    height: 145px;
+    margin: 375px;
+    margin-top: 475px;
+    position: absolute;
+    /* color: wheat; */
+    background-image: url('C:\Users\hp\OneDrive\Desktop\exmedia work\exmedia\src\components\images\br.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.btn-1{
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 200px;
+    border: 0px;
+    height: 30px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: #E5B63C;
+}
+
+.span{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.contents h1 p {
+    margin-top: 150px;
+}
